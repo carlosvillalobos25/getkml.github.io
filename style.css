@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+body { 
+    height: 100vh;
+    width: 100vw;
+    background: rgb(64, 41, 157);
+} 
+#map { 
+    margin: auto;
+    height: 80vh;
+    width: 95vw;
+}
+#controlls {
+    margin: auto;
+    height: 12vh;
+    width: 95vw;
+}
+.input-buttons {
+    display: block;
+    margin: 10px auto 0px auto;
+    width: 90vw;
+    padding: 4px;
+    background: rgb(85, 4, 123);
+    color:white;
+}
+.input-buttons:hover {
+    cursor: pointer;
+}
